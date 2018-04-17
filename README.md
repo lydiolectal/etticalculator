@@ -1,8 +1,6 @@
-# The Plan
+# Etticalculator
 
-1. Implement a calculator language interpreter in Python.
-
-# I. Etticalculator: a Calculator Language that enforces politeness.
+A Calculator Language that enforces politeness. Inspired in part by [INTERCAL](https://en.wikipedia.org/wiki/INTERCAL).
 
 ## Etiquette in Etticalculator
 The most important part of Etticalculator is etiquette. If you are not exceedingly polite, the calculator will punish you.
