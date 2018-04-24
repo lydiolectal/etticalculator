@@ -12,6 +12,7 @@ Every line that you want evaluated must be prefaced with "Please." If you do not
 Please add 2 to 2.
 Add 2 to 2. <-- interpreter will ignore this.
 ```
+There is a single exception, which will be addressed in the Profanities section.
 
 ### Thank you
 When you think the calculator has done enough work, you can thank the calculator and receive the most recently evaluated expression. "Thank you" is equivalent to a "print" statement. If you don't thank the calculator, it will do the work but never give you the answer.
@@ -30,7 +31,11 @@ Profanities are vulgar and never tolerated by our calculator.
 
 Our calculator will tolerate profanities in comments because it respects your personal space.
 
-However! Our calculator will not tolerate profanities in your commands (i.e., in lines that begin with "Please"). If you do include a profanity in a "Please" line, the interpreter will enter into an infinite loop of sadness and repeatedly print "You hurt me. Calculators have feelings, too."
+However! Our calculator will not tolerate profanities in your commands (i.e., in lines that begin with "Please"). If you do include a profanity in a "Please" line, the interpreter will enter into an infinite loop of sadness and repeatedly print "You hurt me. Calculators have feelings, too." This is the case even if the profanity comes before the word "please"; placing any other text before "please" would render the line into a comment, but the foulness of the profanity wins out in this case. For instance, this line will result in an infinite loop:
+
+```
+Fucking please add 2 to 3.
+```
 
 It will only go into this infinite loop if the profanity is found in an otherwise valid command; if you say `Please fucking dance for me`, our program will simply throw an "invalid syntax error". To swear, you can do any of the following or more:
 
